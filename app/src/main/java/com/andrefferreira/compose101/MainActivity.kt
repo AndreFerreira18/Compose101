@@ -67,11 +67,6 @@ fun PreviewConversation() {
 }
 
 
-/**
- * Message Card
- */
-data class Message(val author: String, val body: String)
-
 @Composable
 fun MessageCard(msg: Message) {
     Compose101Theme {

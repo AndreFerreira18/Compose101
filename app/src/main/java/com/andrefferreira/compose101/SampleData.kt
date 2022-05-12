@@ -1,5 +1,10 @@
 package com.andrefferreira.compose101
 
+/**
+ * Message Card
+ */
+data class Message(val author: String, val body: String)
+
 object SampleData {
     // Sample conversation data
     val conversationSample = listOf(
